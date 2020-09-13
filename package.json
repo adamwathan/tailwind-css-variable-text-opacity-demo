@@ -1,0 +1,18 @@
+{
+  "name": "tailwind-variable-text-opacity",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently \"postcss tailwind.css -o tailwind.dist.css -w\" \"live-server .\""
+  },
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "tailwindcss": "^1.8.9"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "live-server": "^1.2.1",
+    "postcss-cli": "^7.1.2"
+  }
+}

@@ -1,0 +1,8 @@
+:root {
+  --color-primary: 37, 99, 235;
+  --color-secondary: 253, 224, 71;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
